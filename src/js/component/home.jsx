@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "/workspace/react-hello/src/js/component/home.jsx";
 
 //create your first component
 const Home = (props) => {
 	return (
 		<div className="bigCounter">
 			<div className="calendar">
-				<i class="far fa-clock"></i>
+				<i className="far fa-clock"></i>
 			</div>
 			<div className="six">{props.digitSix % 10}</div>
 			<div className="five">{props.digitFive % 10}</div>
